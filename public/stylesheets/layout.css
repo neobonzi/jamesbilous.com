@@ -1,0 +1,22 @@
+body {
+  font-family: 'Cardo', serif;
+  background-image:url('/images/simple_tile.png');
+  background-repeat:repeat-all;
+}
+
+#wrapper {
+   margin: 0 auto;
+   padding: 5% 10%;
+   max-width: 980px;
+}
+
+#header {
+}
+
+#header .hero {
+   width: 300px;
+}
+
+#header .tagline {
+   font-style: italic;
+}

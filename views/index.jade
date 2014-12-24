@@ -1,0 +1,10 @@
+extends layout
+
+block content
+   .row
+      .col-sm-12(ng-repeat='post in posts')
+         h3 {{post.title}}
+         p {{post.text}}
+         a(href='readPost/{{post.id}}')
+
+
